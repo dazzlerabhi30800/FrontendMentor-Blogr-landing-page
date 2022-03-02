@@ -1,5 +1,8 @@
 # Frontend Mentor - Blogr landing page
 
+
+site deployed at : https://frontend-mentor-blogr-landing-page-orpin.vercel.app/
+
 ![Design preview for the Blogr landing page coding challenge](./design/desktop-preview.jpg)
 
 ## Welcome! 👋
