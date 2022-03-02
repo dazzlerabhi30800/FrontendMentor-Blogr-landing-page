@@ -61,3 +61,15 @@ connect.addEventListener('click', () => {
 //     ))
 // })
 
+
+const secondImg = document.querySelector('.second .future-wrapper .img-wrapper img');
+const fourthImg = document.querySelector('.fourth .future-wrapper .img-wrapper img');
+console.log(fourthImg);
+
+if(window.innerWidth >= 1000) {
+    secondImg.src = "images/illustration-editor-desktop.svg"
+    fourthImg.src = "images/illustration-laptop-desktop.svg"
+} else {
+    secondImg.src = "images/illustration-editor-mobile.svg"
+    fourthImg.src = "images/illustration-laptop-mobile.svg"
+}
